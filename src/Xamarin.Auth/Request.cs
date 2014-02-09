@@ -351,6 +351,12 @@ namespace Xamarin.Auth
 
 			return request;
 		}
+
+		// Return HttpWebRequest
+		public HttpWebRequest GetRequest()
+		{
+			return this.request;
+		}
 	}
 }
 
